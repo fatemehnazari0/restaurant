@@ -77,7 +77,8 @@ body{
     color: var(--Purple);
 }
 
-.button-yellow:hover{
+.button-yellow:hover,
+.button-purple:hover{
     background-color: var(--White);
 }
 
@@ -96,3 +97,32 @@ body{
         width: 20rem;
     }
 }
+
+/* menu */
+.menu{
+    background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu h1{
+    padding: 2rem;
+    color: var(--White);
+    font-size: 4rem;
+}
+
+ .purple{
+    color: var(--Purple);
+
+ }
+ /* h1 {
+    font-size: 4rem;
+    margin: 0;
+ } */
+
+ .button-purple{
+    background-color: var(--Purple);
+    color: var(--Yellow);
+ }
+
