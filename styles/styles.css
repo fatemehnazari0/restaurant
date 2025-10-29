@@ -116,7 +116,7 @@ body{
     color: var(--Purple);
 
  }
- h1 {
+ h1 ,h2 {
     font-size: 4rem;
     margin: 0;
  }
@@ -156,10 +156,21 @@ body{
     box-sizing: border-box;
 }
 p{
-    font: size 1.5rem;
+    font-size: 1.5rem;
 }
 
 .menu-item-img{
     border-radius: 2rem;
     margin-bottom: -5rem;
+}
+
+@media only screen and (max-width:992px){
+    .menu-items{
+        grid-template-columns: 40% 40%;
+    }
+}
+@media only screen and (max-width:660px){
+    .menu-items{
+        grid-template-columns: 90% 90%;
+    }
 }
