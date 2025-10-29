@@ -258,15 +258,3 @@ p{
     text-align: justify;
     font-size: 2rem;
 }
-
-@media only screen and (max-width:992px){
-    .about-us{
-        flex-direction: column;
-        padding: 2rem 0;
-    }
-    .about-us-img , .about-us-text{
-        width:90% ;
-    }
-    
-
-}
