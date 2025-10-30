@@ -344,11 +344,11 @@ p{
     font-size: 1.5rem;
     transition: 0.2s ease-in-out;
     
-    
  }
 a{
     text-decoration: none;
 }
+
 .contact-us-item a:hover ,
 .contact-us-item address:hover{
     background-color: var(--Purple);
